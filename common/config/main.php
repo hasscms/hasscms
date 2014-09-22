@@ -60,6 +60,24 @@ return [
 		],
 		'system' => [
 			'class' => 'Hass\System\Module'
+		],
+		'taxonomy' => [
+			'class' => 'Hass\Taxonomy\Module'
+		],
+		'menu' => [
+			'class' => 'Hass\Menu\Module'
+		],
+		'file' => [
+			'class' => 'Hass\File\Module'
+		],
+		'comment' => [
+			'class' => 'Hass\Comment\Module'
+		],
+		'field' => [
+			'class' => 'Hass\Field\Module'
+		],
+		'node' => [
+			'class' => 'Hass\Node\Module'
 		]
 	]
 
